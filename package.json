@@ -1,0 +1,30 @@
+{
+  "name": "bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@cloudant/cloudant": "^3.0.1",
+    "cfenv": "^1.1.0",
+    "config": "^2.0.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "moment-timezone": "^0.5.23",
+    "morgan": "~1.9.0",
+    "uuid": "^3.3.2",
+    "watson-developer-cloud": "^3.15.0"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": "6.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

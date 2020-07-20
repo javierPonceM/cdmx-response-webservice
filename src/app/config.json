@@ -1,0 +1,20 @@
+{
+  "app":{
+    "retrieveData":{
+      "observers":{
+        "utilStatistics":[{
+            "fn":"fileStatics",
+            "enable":false
+          }],
+         "historyStorage":[{
+                "fn":"saveHistory",
+                "enable":true
+              }],
+        "testObserver":[{
+          "fn":{"function":{"arguments":"paylodad","body":"console.log('test: ',paylodad.response);"}},
+          "enable":false
+          }]
+      }
+    }
+  }
+}
